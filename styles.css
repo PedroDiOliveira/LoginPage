@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url("images\composition-with-nature-landscape-lavender-colors.jpg");
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images//wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    height: 110vh;
+}
+
+.logo{
+    position: absolute;
+    top: 4%;
+    left: 3%;
+}
+
+.logo img{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    margin: 10%;
+}
+
+container{
+    display: flex;
+    flex-direction: column;
+    border: white solid;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(4px);
+    padding: 30px 5%;
+    border-radius: 15px;
+    height: 70%;
+}
+
+.preencher{
+    width: 20rem;
+    height: 40px;
+    border-radius: 20px;
+    border: black solid 1px;
+
+}
+
+::placeholder{
+    text-indent: 1rem;
+}
+.ajuda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    
+}
+
+
+.ajuda label{
+    margin-right: 25%;
+    font-size: small;
+    white-space: nowrap;
+}
+
+button{
+    cursor: pointer;
+    border: white solid 1px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 90% ;
+    transform:scale(1.2);
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+}
